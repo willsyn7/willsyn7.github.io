@@ -143,16 +143,16 @@ body {
   list-style: none;
 }
 
-.work-timeline li {
+.work-timeline > li {
   position: relative;
   padding-bottom: 20px;
 }
 
-.work-timeline li:last-child {
+.work-timeline > li:last-child {
   padding-bottom: 0;
 }
 
-.work-timeline li::before {
+.work-timeline > li::before {
   content: '';
   position: absolute;
   top: 5px;
@@ -188,6 +188,26 @@ body {
   margin-top: 5px;
   color: var(--text-muted);
   font-size: 11px;
+  line-height: 1.4;
+}
+
+.work-details {
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.work-details summary {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.work-achievements {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding-left: 16px;
   line-height: 1.4;
 }
 
