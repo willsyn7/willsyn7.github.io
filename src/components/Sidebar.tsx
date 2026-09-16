@@ -12,10 +12,10 @@ export default function Sidebar() {
       <a className="sidebar-email" href="mailto:willsyn77@gmail.com">
         willsyn77@gmail.com
       </a>
-      <a className="sidebar-resume" href="/resumes/Saw.Naing.Resume.FS.pdf" download>
+      <a className="sidebar-resume" href="/resumes/Naing.Saw.Resume.FS.pdf" download>
         Download Resume (Full Stack)
       </a>
-      <a className="sidebar-resume" href="/resumes/Saw.Naing.Resume.BE.pdf" download>
+      <a className="sidebar-resume" href="/resumes/Naing.Saw.Resume.BE.pdf" download>
         Download Resume (Backend)
       </a>
 
