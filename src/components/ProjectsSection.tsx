@@ -7,9 +7,9 @@ import ProjectDetail from './ProjectDetail'
 import SkillButtons from './SkillButtons'
 
 const skillTechnologyAliases: Record<string, string[]> = {
-  AI: ['AWS Bedrock', 'Vertex AI', 'OpenAI'],
+  AI: ['AWS Bedrock', 'Vertex AI', 'OpenAI', 'Azure AI Foundry'],
   'JS/TS': ['JavaScript', 'TypeScript'],
-  NoSQL: ['MongoDB'],
+  NoSQL: ['MongoDB', 'Azure Cosmos DB'],
   'React.js': ['React'],
 }
 

@@ -47,6 +47,55 @@ export const projects: Project[] = [
   },
   {
     id: 'project-2',
+    name: 'DeadLocked',
+    description:
+      'Observable Deadlock match-data ingestion and analytics backend that uses a partitioned, rate-limited Go pipeline with batching, retries, and dead-letter handling, persists player statistics in Neon Postgres, and serves cache-aside APIs through Valkey.',
+    technologies: [
+      'Golang',
+      'Deadlock API',
+      'Concurrent Pipelines',
+      'REST API',
+      'PostgreSQL',
+      'Neon',
+      'pgx',
+      'Redis',
+      'Valkey',
+      'Prometheus',
+      'Grafana',
+      'Docker',
+      'Docker Compose',
+      'Rate Limiting',
+      'Dead Letter Queue',
+    ],
+    link: 'https://github.com/willsyn7/DeadLocked',
+  },
+  {
+    id: 'project-3',
+    name: 'Dispatch',
+    description:
+      'Full-stack job application assistant that normalizes Greenhouse, Lever, Workday, and Ashby postings, compares them with a versioned resume profile, generates tailored cover letters with Azure AI Foundry, and tracks applications through Angular and Go services.',
+    technologies: [
+      'Angular',
+      'TypeScript',
+      'Golang',
+      'REST API',
+      'Azure',
+      'Azure AI Foundry',
+      'Azure Cosmos DB',
+      'Redis',
+      'Microsoft Entra ID',
+      'Azure Key Vault',
+      'Managed Identity',
+      'Azure Container Apps',
+      'Bicep',
+      'Docker',
+      'Chrome Extension',
+      'Firefox Extension',
+    ],
+    link: 'https://github.com/willsyn7/Dispatch',
+  },
+  {
+    id: 'project-4',
     name: 'Its Cinema',
     description:
       'Full-stack movie streaming platform with JWT-based authentication, server-side rendered movie browsing, genre-based recommendations, and AI-assisted admin review classification.',
@@ -67,7 +116,7 @@ export const projects: Project[] = [
     link: 'https://github.com/willsyn7/Its_Cinema',
   },
   {
-    id: 'project-3',
+    id: 'project-5',
     name: 'World Lens',
     description:
       'Country investment signal tool with an implemented Go service that streams paginated World Bank data over gRPC, plus a documented Python ETL, Cloud SQL, TypeScript backend, and Vertex AI architecture.',
@@ -94,7 +143,7 @@ export const projects: Project[] = [
     link: 'https://github.com/willsyn7/WorldLens1',
   },
   {
-    id: 'project-4',
+    id: 'project-6',
     name: 'Potato Mart',
     description:
       'Microservices-based e-commerce backend in Go, using gRPC for inter-service communication and a GraphQL API gateway. Account, product catalog, and order services backed by PostgreSQL and Elasticsearch, containerized with Docker.',
@@ -111,7 +160,7 @@ export const projects: Project[] = [
     link: 'https://github.com/willsyn7/Potato_Mart',
   },
   {
-    id: 'project-5',
+    id: 'project-7',
     name: 'Used Ticket',
     description:
       'Full-stack ticket booking and scanning app with a Go/Fiber backend and a React Native (Expo) mobile frontend. Users browse events, book tickets, and scan QR codes via the device camera, backed by PostgreSQL and JWT authentication.',
@@ -132,7 +181,7 @@ export const projects: Project[] = [
     link: 'https://github.com/willsyn7/Used_Ticket_Final',
   },
   {
-    id: 'project-6',
+    id: 'project-8',
     name: 'JobSmith',
     description:
       'Job search tool using the Google Custom Search API to surface under-represented job listings, with a React/Tailwind frontend and a Node.js backend backed by PostgreSQL (via Supabase) and JWT auth.',
@@ -152,7 +201,7 @@ export const projects: Project[] = [
     link: 'https://github.com/JobSmithIO/JobFinder',
   },
   {
-    id: 'project-7',
+    id: 'project-9',
     name: 'Page_Parse',
     description:
       'Full-stack web scraping and parsing platform that combines browser automation, proxy-backed collection, server-side scraping APIs, and a React dashboard for managing extracted page data.',
