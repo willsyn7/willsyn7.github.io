@@ -23,7 +23,7 @@ export default function Sidebar() {
         <h2 id="work-history-title">Work History</h2>
         <ol className="work-timeline">
           <li>
-            <time dateTime="2024-05">May 2024 - Present</time>
+            <time dateTime="2024-01">Jan. 2024 - Present</time>
             <h3>Software Engineer</h3>
             <p>OS Analytics</p>
             <span>Open Source Web Analytics Platform</span>
